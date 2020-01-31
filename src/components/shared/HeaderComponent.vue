@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -9,8 +9,8 @@
         data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle navigation">
-
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,7 +28,9 @@
             <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+              Disabled
+            </a>
           </li>
         </ul>
       </div>
@@ -38,9 +40,7 @@
 
 <script>
 export default {
-    name: 'header-component'
-}
+  name: "header-component"
+};
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
